@@ -1,25 +1,40 @@
 
 
-.footer {
+/* .footer {
     width: 100%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-self: flex-end;
     background-color: transparent;
-    }
+    } */
 
-main{
-    
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.tarjetas {
     display: flex;
     justify-content: center;
-    gap: 15%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    flex-direction: row;
 }
 
-.card-body{
-    height: 30%s;
+.card-body {
+    display: block;
+    justify-content: contents;
 }
+
+section{
+    margin: 50px;
+    gap: 5%;
+}
+
+.container (
+    sm: 540px,
+
+);
 
 
