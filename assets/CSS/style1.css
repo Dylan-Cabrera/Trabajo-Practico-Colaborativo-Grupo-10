@@ -9,9 +9,13 @@ main{
     
 }
 
-#footer{
-    height: 30px;
-}
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.90);
+    }
 
 #card1, #card2, #card3{
     background-color: rgba(255, 255, 255, 0.75);
