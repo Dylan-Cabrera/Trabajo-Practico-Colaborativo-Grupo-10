@@ -2,7 +2,7 @@ main{
     background-image: url(../images/okami-backround.jpg);
     background-attachment: fixed;
     background-size: contain;
-    padding-top: 50px;
+    padding-top: 50px;     
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -21,3 +21,4 @@ main{
     gap: 10px;
     
 }
+
