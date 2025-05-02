@@ -1,7 +1,23 @@
 main{
-    background-image: url("assets\images\okami-backround.jpg");
+    background-image: url(../images/okami-backround.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
 }
 
-body{
-    min-height: 100dv;
+#footer{
+    height: 30px;
+}
+
+#card1, #card2, #card3{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#cartas{
+    gap: 10px;
+    
 }
