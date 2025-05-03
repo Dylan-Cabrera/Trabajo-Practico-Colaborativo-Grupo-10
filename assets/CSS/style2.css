@@ -1,10 +1,17 @@
-.contenedorasdf {
-    display: flex;
+body {
     background-image: url("/Trabajo-Practico-Colaborativo-Grupo-10/assets/images/vista2images/pxArt.png");
     background-attachment: fixed;
     background-size: cover;
+}
+
+.contenedorasdf {
+    display: flex;
     align-content: center;
     justify-content: center;
     gap: 15px;
+    margin-top: 30px;
 }
 
+.div {
+    background-color:rgba(255, 255, 255, 0.418)
+}
