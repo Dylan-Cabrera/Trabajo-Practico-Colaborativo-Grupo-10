@@ -4,7 +4,7 @@ body {
     background-size: cover;
 }
 
-.contenedorasdf {
+#contenedorasdf {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -23,7 +23,6 @@ body {
 }
 
 footer {
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    color: white;
-    background-color: rgb(255, 255, 255, 0.75);
 }
