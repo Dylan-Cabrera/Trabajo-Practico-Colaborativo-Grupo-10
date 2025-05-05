@@ -1,0 +1,28 @@
+body {
+    background-image: url("/assets/images/vista2images/pxArt.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contenedorasdf {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#card1 {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: blue;
+}
+
+#card2 {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: crimson;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
