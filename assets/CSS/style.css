@@ -1,52 +1,44 @@
-body{
+main{
     background-image: url("/assets/images/background.png");
-    height: 100vh;
+    background-attachment: fixed;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
 footer {
     width: 100%;
-    height: 80%;
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.90);
     }
 
 
-    .titulo {
-        display: flex;
-        justify-content: space-around;
-        justify-self: center;
-        margin: 20px;
-        background-color: rgba(11, 114, 11, 0.621);
-        width: 30%;
-        border-radius: 15px;
-    }
-    
-    .tarjetas {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-    }
-    
-    .card-body {
-        display: block;
-        justify-content: contents;
-        background-color: transparent;
-    }
-    .card-header{
-        background-color: transparent;
-    }
-    
-    section{
-        margin: 50px;
-        gap: 5%;
-    }
-
-@include media-breakpoint-up(sm) {
-    section {
-    display: block;
-    }
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    margin: 20px;
+    background-color: rgba(11, 114, 11, 0.621);
+    width: 30%;
+    border-radius: 15px;
 }
+
+#cartas{
+    justify-self: center;
+    gap: 20px;
+}
+
+#card1, #card2{
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+    
+section{
+    margin: 50px;
+    gap: 5%;
+}
+
 
