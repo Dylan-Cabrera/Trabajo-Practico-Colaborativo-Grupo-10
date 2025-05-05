@@ -1,0 +1,28 @@
+main{
+    background-image: url(../images/okami-backround.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    padding-top: 50px;     
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.90);
+    }
+
+#card1, #card2, #card3{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#cartas{
+    gap: 10px;
+    
+}
+
